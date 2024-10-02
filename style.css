@@ -8,7 +8,7 @@ body{
     flex-direction: column;
 }
 
-
+/* nav */
 nav {
     display: flex;
     flex-direction: row;
@@ -17,24 +17,25 @@ nav {
     padding: 12px;
     padding-left: 40px;
     padding-right: 40px;
+    justify-content: space-between;
 
 }
-.logo-containor {
+.logo-container {
     display: flex;
 }
 
 
-.nav-links-containor {
+.nav-links-container {
     display: flex;
     gap: 60px;
     align-items: center;
-    margin-left: auto;
 }
 
-.nav-links-containor il {
+.nav-links-container il {
     font-size: 30px;
 }
 
+/*banner area */
 .banner {
     display: flex;
     justify-content: start;
@@ -64,4 +65,35 @@ nav {
 
 .banner-text p{
     font-size: 40px;
+}
+
+
+/*our traites sections */
+.traits-section {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.traits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.traits-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.traits-container div {
+    flex-basis: 0;
+}
+
+.traits-container div p {
+    text-align: center;
+    font-size: 30px;
+    max-width: 300px;
 }
