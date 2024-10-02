@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background-color: #B80000;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.logo-containor {
+    display: flex;
+}
+
+
+.nav-links-containor {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links-containor il {
+    font-size: 30px;
+}
+
+.banner {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 600px;
+    background-image: url('images/Abu_Queider_Co_Firearms_Banner.png'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: black;
+    text-align: start;
+}
+.banner-text {
+    flex: 1;
+    margin-left: 150px
+}
+
+
+.empty-container {
+    flex: 1;
+}
+
+.banner-text h1{
+    z-index: 1; 
+    font-size: 60px;
+}
+
+.banner-text p{
+    font-size: 40px;
+}
