@@ -1,19 +1,54 @@
+
+
+
+@font-face {
+    font-family: MainFont;
+    src: url(fonts/Proelium.otf)
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url(fonts/Bluffolk.otf)
+}
+
+@font-face {
+    font-family: thirdFont;
+    src: url(fonts/Kleader.ttf)
+}
+
 * {
     margin: 0;
     padding: 0;
+    
 }
 
+h1, h2 {
+    font-family: MainFont;
+
+}
+
+p , il {
+    font-family: secondFont;
+
+}
+
+il a {
+    text-decoration: none;
+    color: black;
+}
 body{
     display: flex;
     flex-direction: column;
+    
 }
+
 
 /* nav */
 nav {
     display: flex;
     flex-direction: row;
     height: 70px;
-    background-color: #B80000;
+    background-color: #B17457;
     padding: 12px;
     padding-left: 40px;
     padding-right: 40px;
@@ -29,6 +64,7 @@ nav {
     display: flex;
     gap: 60px;
     align-items: center;
+    
 }
 
 .nav-links-container il {
@@ -60,7 +96,9 @@ nav {
 
 .banner-text h1{
     z-index: 1; 
-    font-size: 60px;
+    font-size: 80px;
+    margin-bottom: 20px;
+
 }
 
 .banner-text p{
@@ -72,21 +110,25 @@ nav {
 .traits-section {
     display: flex;
     flex-direction: column;
-    margin-right: 150px;
-    margin-left: 150px;
+    background-color: #D8D2C2;
+
 }
 .traits-container {
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .traits-section h2 {
+    margin-top: 40px;
+
     text-align: center;
     font-size: 40px;
-    margin-top: 40px;
     margin-bottom: 40px;
-
 }
 .traits-container div {
     flex-basis: 0;
@@ -103,21 +145,27 @@ nav {
 .jefferson-container {
     display: flex;
     flex-direction: row;
-    padding: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 50px;
     align-items: center;
+    background-color: #FAF7F0;
 
 }
 .jefferson-container img {
-    max-height: 500px;
+    max-height: 400px;
 }
 
 .jefferson-container div h1 {
-    font-size: 50px;
+    font-family: thirdFont;
+    font-size: 30px;
     margin:20px;
 }
 
 .jefferson-container div h2 {
-    font-size: 30px;
+    font-family: secondFont;
+
+    font-size: 25px;
     margin:20px;
     text-align: end;
 }
