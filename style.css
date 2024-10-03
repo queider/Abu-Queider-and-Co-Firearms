@@ -201,3 +201,19 @@ nav {
     border: none;
     border-radius: 10px;
 }
+
+.logo-end-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #B17457;
+    height: 90px;
+    padding: 20px;
+
+}
+
+.logo-end-container img {
+    height: 70px;
+    margin-bottom: 10px;
+}
