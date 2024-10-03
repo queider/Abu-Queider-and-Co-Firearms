@@ -97,3 +97,28 @@ nav {
     font-size: 30px;
     max-width: 300px;
 }
+
+/*Thomas-Jefferson*/
+
+.jefferson-container {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    align-items: center;
+
+}
+.jefferson-container img {
+    max-height: 500px;
+}
+
+.jefferson-container div h1 {
+    font-size: 50px;
+    margin:20px;
+}
+
+.jefferson-container div h2 {
+    font-size: 30px;
+    margin:20px;
+    text-align: end;
+}
+
